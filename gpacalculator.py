@@ -23,7 +23,7 @@ if option == "2":
   points = int(input("Total amount of grade points in every semester: "))
   hours = int(input("Total amount of credit hours in every semester: "))
   CGPA = points/hours
-  if GPA < 5:
+  if CGPA < 5:
     print("Your cumulative GPA is: ", CGPA)
     sys.exit()
   if CGPA > 5.0:
